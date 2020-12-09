@@ -12,6 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
+        appBar: AppBar(
+          backgroundColor: Colors.blueAccent[150],
+          title: Text('Mi Card App'),
+        ),
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
